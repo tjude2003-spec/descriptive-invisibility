@@ -1,0 +1,16 @@
+# Core (required by most analysis scripts)
+rapidfuzz>=3.0
+networkx>=3.0
+
+# NER pipeline (required for model training and evaluation)
+spacy>=3.5
+
+# Figures (required for plot_*.py and compute_completeness.py)
+matplotlib>=3.5
+numpy>=1.21
+
+# Kaggle evaluation only (kaggle_ner_eval_v2.py)
+# Install these only if running Flair/BERTje evaluation:
+# flair>=0.13
+# transformers>=4.30
+# torch>=2.0

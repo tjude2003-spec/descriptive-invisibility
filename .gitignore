@@ -1,0 +1,37 @@
+# ── Config (contains local paths) ──
+config.py
+
+# ── Data files (too large for GitHub) ──
+*.csv
+!htr_inventory_notary_mapping.csv
+
+# ── Script outputs ──
+*.json
+!ner_split.json
+*.png
+*.pdf
+*.gexf
+output/
+threshold_sensitivity/
+
+# ── Large data directories ──
+htr_cache/
+ner_model/
+model-best/
+spacy_data/
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.spacy
+
+# ── macOS ──
+.DS_Store
+__MACOSX/
+._*
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
