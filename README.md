@@ -21,7 +21,7 @@ The thesis examines how multiple independent access layers — finding aids, NER
 **1. Clone and install dependencies:**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/thesis-descriptive-invisibility.git
+git clone https://github.com/tjude2003-spec/thesis-descriptive-invisibility.git
 cd thesis-descriptive-invisibility
 pip install -r requirements.txt
 python -m spacy download nl_core_news_lg
@@ -145,7 +145,7 @@ relations/plot_case_study_clusters.py      Zweerts and Verleij cluster networks
 
 - `ner/kaggle_ner_eval_v2.py` is designed to run on Kaggle with GPU access and hardcoded Kaggle paths. It is not intended for local execution.
 - The adapted spaCy model is not included. Train it with `ner/train_ner.py` or contact the author.
-- `fetch_htr_corpus_fast.py` takes an incredibly lomg amount of time to collect all HTR transcriptions due to API limitations. 
+- `fetch_htr_corpus_fast.py` takes an incredibly long amount of time to collect all HTR transcriptions due to API limitations. 
 - All figures are generated at 300 DPI in black and white with Times New Roman font.
 
 ## Author
